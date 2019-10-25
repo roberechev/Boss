@@ -8,6 +8,8 @@ public class Main {
 		Personaje mag = new Personaje();
 		Personaje ber = new Personaje();
 
+		
+		
 	}
 
 }
