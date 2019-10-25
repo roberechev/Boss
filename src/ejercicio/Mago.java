@@ -10,14 +10,9 @@ public class Mago extends Personaje {
 	}
 
 	@Override
-	public void atacar(Personaje objetivo) {
-		System.out.println("Soy el mago " + this.getNombre() + " y te reviento con mi " + arma.getTipo() + " que quita " + arma.getDano());
-		arma.usar();
-
-		objetivo.setPv((int) (objetivo.getPv() - arma.getDano()));
-
-		System.out
-				.println("Mi enemigo " + objetivo.getNombre() + " ahora tiene " + objetivo.getPv() + " puntos de vida");
+	public void atacar(Boss boss) {
+		boss.esAtacado(this);
+		
 	}
 
 	@Override

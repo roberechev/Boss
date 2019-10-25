@@ -4,7 +4,7 @@ public class Espada extends Arma{
 	
 	public Espada(String tipo) {
 		super();
-		this.dano = 50;
+		this.dano = 60;
 		this.tipo = tipo;
 	}
 	

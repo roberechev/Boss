@@ -31,8 +31,9 @@ public abstract class Personaje {
 		this.arma = arma;
 	}
 
-	public abstract void atacar(Personaje objetivo);
+	public abstract void atacar(Boss boss);
 
 	public abstract void resetearVida();
+
 
 }

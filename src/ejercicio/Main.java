@@ -3,7 +3,7 @@ package ejercicio;
 public class Main {
 
 	public static void main(String[] args) {
-		Personaje bos = new Boss("Jose Antonio", new Ironia(""));
+		Boss bos = new Boss("Jose Antonio", new Ironia("Ironia"));
 		Personaje gue1 = new Guerrero("Soma", new Espada("Bastarda"));
 		Personaje mag = new Mago("Falacio", new Varita("Lobo"));
 		Personaje ber = new Berseker("Franco", new Espada("Valle"));

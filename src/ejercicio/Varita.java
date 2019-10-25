@@ -4,7 +4,7 @@ public class Varita extends Arma{
 	
 	public Varita(String tipo) {
 		super();
-		this.dano = 50;
+		this.dano = 30;
 		this.tipo = tipo;
 	}
 

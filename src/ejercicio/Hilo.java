@@ -2,9 +2,10 @@ package ejercicio;
 
 public class Hilo implements Runnable{
 	
-	private Personaje personaje, boss;
+	private Personaje personaje;
+	private Boss boss;
 	
-	public Hilo(Personaje personaje, Personaje boss) {
+	public Hilo(Personaje personaje, Boss boss) {
 		this.personaje = personaje;
 		this.boss = boss;
 	}
@@ -13,8 +14,13 @@ public class Hilo implements Runnable{
 
 	@Override
 	public void run() {
-		personaje.atacar(boss);
+		entrar();
 		
+		
+	}
+	
+	public void entrar() {
+		personaje.atacar(boss);
 	}
 
 }
