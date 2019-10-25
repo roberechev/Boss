@@ -17,8 +17,8 @@ public abstract class Arma {
 		return dano;
 	}
 
-	public void setDano(double daño) {
-		this.dano = daño;
+	public void setDano(double dano) {
+		this.dano = dano;
 	}
 	
 	public abstract void usar();
