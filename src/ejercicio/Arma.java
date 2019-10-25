@@ -3,7 +3,7 @@ package ejercicio;
 public abstract class Arma {
 	 
 	protected String tipo;
-	protected double daño;
+	protected double dano;
 	
 	public String getTipo() {
 		return tipo;
@@ -13,12 +13,12 @@ public abstract class Arma {
 		this.tipo = tipo;
 	}
 
-	public double getDaño() {
-		return daño;
+	public double getDano() {
+		return dano;
 	}
 
-	public void setDaño(double daño) {
-		this.daño = daño;
+	public void setDano(double daño) {
+		this.dano = daño;
 	}
 	
 	public abstract void usar();

@@ -11,10 +11,10 @@ public class Berseker extends Personaje {
 
 	@Override
 	public void atacar(Personaje objetivo) {
-		System.out.println("Soy el berseker " + this.getNombre() + " y te reviento con mi " + arma.getTipo()+ " que quita " + arma.getDaño());
+		System.out.println("Soy el berseker " + this.getNombre() + " y te reviento con mi " + arma.getTipo()+ " que quita " + arma.getDano());
 		arma.usar();
 
-		objetivo.setPv((int) (objetivo.getPv() - arma.getDaño()));
+		objetivo.setPv((int) (objetivo.getPv() - arma.getDano()));
 
 		System.out
 				.println("Mi enemigo " + objetivo.getNombre() + " ahora tiene " + objetivo.getPv() + " puntos de vida");
